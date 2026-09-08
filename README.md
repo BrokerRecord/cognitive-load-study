@@ -1,4 +1,3 @@
-```markdown
 # 🧠 Cognitive Load & Usability Evaluation Study
 
 > A full-stack human-factors study comparing interface complexity and cognitive load, complete with data collection, server-side storage, and comprehensive analysis.
@@ -116,6 +115,7 @@ This study investigates how **interface complexity affects cognitive load** and 
 ---
 
 ## 📁 Project Structure
+
 ```
 
 cognitive-load-study/
@@ -161,7 +161,7 @@ cognitive-load-study/
 
 ```
 
-```
+````
 
 ---
 
@@ -201,7 +201,7 @@ cognitive-load-study/
 Node.js >= 18.0.0
 npm >= 9.0.0
 Python >= 3.8.0
-```
+````
 
 ### Clone & Install
 
