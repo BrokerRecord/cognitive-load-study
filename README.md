@@ -90,15 +90,15 @@ This study investigates how **interface complexity affects cognitive load** and 
 1. **Consent Form** → 2. **Demographics** → 3. **Interface A** (with TLX) →
 2. **Interface B** (with TLX) → 5. **SUS Questionnaire** → 6. **Completion & Data Export**
 
-## 🖥️ Study Interface
+### 🖥️ Study Interface
 
-![Study Interface](results/study_interface.png)
+![Study Interface](results/study_interface.PNG)
 
 ---
 
 ## 📝 Task Example
 
-![Task Example](results/Interface_A_task.png)
+![Task Example](results/Interface_A_task.PNG)
 
 ---
 
@@ -110,7 +110,7 @@ This study investigates how **interface complexity affects cognitive load** and 
 
 ## 📤 Data Export Options
 
-![Data Export](results/data_export.png)
+![Data Export](results/data_export.PNG)
 
 ---
 
@@ -161,8 +161,6 @@ cognitive-load-study/
 
 ```
 
-````
-
 ---
 
 ## 🛠️ Tech Stack
@@ -201,7 +199,7 @@ cognitive-load-study/
 Node.js >= 18.0.0
 npm >= 9.0.0
 Python >= 3.8.0
-````
+```
 
 ### Clone & Install
 
