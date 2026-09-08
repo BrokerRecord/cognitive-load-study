@@ -61,7 +61,6 @@ This study investigates how **interface complexity affects cognitive load** and 
 | **Performance**          | 9.10        | 7.80        | ✅ p = 0.004 | d = 0.666   |
 | **Effort**               | 0.80        | 1.70        | ✅ p = 0.041 | d = -0.451  |
 | **Frustration**          | 0.40        | 2.50        | ✅ p = 0.005 | d = -1.142  |
-| **SUS Score**            | 66.8        | -           | -            | -           |
 
 ### 📊 Key Insights
 
