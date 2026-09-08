@@ -1,0 +1,1574 @@
+[
+  {
+    "participantId": "P001",
+    "demographics": {
+      "age": 25,
+      "gender": "female",
+      "education": "masters",
+      "techExperience": 8,
+      "deviceType": "laptop"
+    },
+    "interfaceA": {
+      "tasks": [
+        {
+          "completionTime": 2.856,
+          "errors": 0,
+          "reactionTimes": [],
+          "success": true,
+          "selectedOption": "Settings",
+          "taskId": "A1",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T10:46:55.903Z"
+        },
+        {
+          "completionTime": 6.437,
+          "errors": 0,
+          "reactionTimes": [
+            2840
+          ],
+          "success": true,
+          "selectedOption": "Profile",
+          "taskId": "A2",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T10:46:59.480Z"
+        },
+        {
+          "completionTime": 10.355,
+          "errors": 0,
+          "reactionTimes": [
+            2840,
+            2055
+          ],
+          "success": true,
+          "selectedOption": "Help",
+          "taskId": "A3",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T10:47:03.387Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 0,
+        "physicalDemand": 0,
+        "temporalDemand": 0,
+        "performance": 10,
+        "effort": 0,
+        "frustration": 0
+      }
+    },
+    "interfaceB": {
+      "tasks": [
+        {
+          "completionTime": 11.47,
+          "errors": 0,
+          "reactionTimes": [
+            9506
+          ],
+          "success": true,
+          "selectedOption": "System Settings",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B1",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T10:47:42.663Z"
+        },
+        {
+          "completionTime": 18.184,
+          "errors": 0,
+          "reactionTimes": [
+            9506,
+            1944,
+            3410
+          ],
+          "success": true,
+          "selectedOption": "User Management",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B2",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T10:47:49.382Z"
+        },
+        {
+          "completionTime": 29.355,
+          "errors": 0,
+          "reactionTimes": [
+            9506,
+            1944,
+            3410,
+            1783,
+            3816,
+            2006,
+            1264
+          ],
+          "success": true,
+          "selectedOption": "Technical Support",
+          "path": [
+            "Main",
+            "Help Center"
+          ],
+          "taskId": "B3",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T10:48:00.538Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 3,
+        "physicalDemand": 2,
+        "temporalDemand": 2,
+        "performance": 9,
+        "effort": 3,
+        "frustration": 1
+      }
+    },
+    "sus": {
+      "0": 3,
+      "1": 2,
+      "2": 4,
+      "3": 2,
+      "4": 3,
+      "5": 2,
+      "6": 4,
+      "7": 2,
+      "8": 3,
+      "9": 1
+    },
+    "timestamp": "2026-09-08T10:50:26.948Z",
+    "calculated_metrics": {
+      "interfaceA": {
+        "avgTime": 6.549333333333333,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "interfaceB": {
+        "avgTime": 19.669666666666668,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "susScore": 70
+    },
+    "savedAt": "2026-09-08T10:50:27.426Z"
+  },
+  {
+    "participantId": "P002",
+    "demographics": {
+      "age": 21,
+      "gender": "female",
+      "education": "some-college",
+      "techExperience": 5,
+      "deviceType": "laptop"
+    },
+    "interfaceA": {
+      "tasks": [
+        {
+          "completionTime": 16.085,
+          "errors": 0,
+          "reactionTimes": [],
+          "success": true,
+          "selectedOption": "Settings",
+          "taskId": "A1",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T10:51:48.613Z"
+        },
+        {
+          "completionTime": 20.338,
+          "errors": 0,
+          "reactionTimes": [
+            16081
+          ],
+          "success": true,
+          "selectedOption": "Profile",
+          "taskId": "A2",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T10:51:52.862Z"
+        },
+        {
+          "completionTime": 25.155,
+          "errors": 0,
+          "reactionTimes": [
+            16081,
+            2732
+          ],
+          "success": true,
+          "selectedOption": "Help",
+          "taskId": "A3",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T10:51:57.672Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 3,
+        "physicalDemand": 0,
+        "temporalDemand": 5,
+        "performance": 7,
+        "effort": 5,
+        "frustration": 0
+      }
+    },
+    "interfaceB": {
+      "tasks": [
+        {
+          "completionTime": 23.598,
+          "errors": 0,
+          "reactionTimes": [
+            11345,
+            2567
+          ],
+          "success": true,
+          "selectedOption": "System Settings",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B1",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T10:52:55.063Z"
+        },
+        {
+          "completionTime": 34.239,
+          "errors": 0,
+          "reactionTimes": [
+            11345,
+            2567,
+            9672,
+            5562
+          ],
+          "success": true,
+          "selectedOption": "User Management",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B2",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T10:53:05.704Z"
+        },
+        {
+          "completionTime": 60.179,
+          "errors": 0,
+          "reactionTimes": [
+            11345,
+            2567,
+            9672,
+            5562,
+            3566,
+            2756,
+            2387,
+            1844,
+            2140,
+            3308,
+            2597,
+            2640,
+            2249,
+            2039
+          ],
+          "success": true,
+          "selectedOption": "Technical Support",
+          "path": [
+            "Main",
+            "Help Center"
+          ],
+          "taskId": "B3",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T10:53:31.652Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 5,
+        "physicalDemand": 5,
+        "temporalDemand": 5,
+        "performance": 5,
+        "effort": 5,
+        "frustration": 5
+      }
+    },
+    "sus": {
+      "0": 1,
+      "1": 5,
+      "2": 1,
+      "3": 1,
+      "4": 5,
+      "5": 3,
+      "6": 5,
+      "7": 5,
+      "8": 3,
+      "9": 1
+    },
+    "timestamp": "2026-09-08T10:54:56.235Z",
+    "calculated_metrics": {
+      "interfaceA": {
+        "avgTime": 20.526,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "interfaceB": {
+        "avgTime": 39.33866666666666,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "susScore": 50
+    },
+    "savedAt": "2026-09-08T10:54:56.242Z"
+  },
+  {
+    "participantId": "P003",
+    "demographics": {
+      "age": 67,
+      "gender": "male",
+      "education": "some-college",
+      "techExperience": 1,
+      "deviceType": "desktop"
+    },
+    "interfaceA": {
+      "tasks": [
+        {
+          "completionTime": 10.831,
+          "errors": 0,
+          "reactionTimes": [],
+          "success": true,
+          "selectedOption": "Settings",
+          "taskId": "A1",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T10:56:17.690Z"
+        },
+        {
+          "completionTime": 26.59,
+          "errors": 1,
+          "reactionTimes": [
+            10826,
+            2526
+          ],
+          "success": true,
+          "selectedOption": "Profile",
+          "taskId": "A2",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T10:56:33.456Z"
+        },
+        {
+          "completionTime": 51.208,
+          "errors": 2,
+          "reactionTimes": [
+            10826,
+            2526,
+            11718,
+            11784
+          ],
+          "success": true,
+          "selectedOption": "Help",
+          "taskId": "A3",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T10:56:58.078Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 6,
+        "physicalDemand": 3,
+        "temporalDemand": 3,
+        "performance": 6,
+        "effort": 3,
+        "frustration": 3
+      }
+    },
+    "interfaceB": {
+      "tasks": [
+        {
+          "completionTime": 12.205,
+          "errors": 0,
+          "reactionTimes": [
+            3627,
+            2982
+          ],
+          "success": true,
+          "selectedOption": "System Settings",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B1",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T10:57:43.996Z"
+        },
+        {
+          "completionTime": 25.552,
+          "errors": 0,
+          "reactionTimes": [
+            3627,
+            2982,
+            5580,
+            3511,
+            4199,
+            1299,
+            1169
+          ],
+          "success": true,
+          "selectedOption": "User Management",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B2",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T10:57:57.330Z"
+        },
+        {
+          "completionTime": 47.811,
+          "errors": 0,
+          "reactionTimes": [
+            3627,
+            2982,
+            5580,
+            3511,
+            4199,
+            1299,
+            1169,
+            1647,
+            2003,
+            2632,
+            1483,
+            2116,
+            1315,
+            6147,
+            2188
+          ],
+          "success": true,
+          "selectedOption": "Technical Support",
+          "path": [
+            "Main",
+            "Help Center"
+          ],
+          "taskId": "B3",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T10:58:19.599Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 7,
+        "physicalDemand": 5,
+        "temporalDemand": 5,
+        "performance": 3,
+        "effort": 6,
+        "frustration": 7
+      }
+    },
+    "sus": {
+      "0": 1,
+      "1": 5,
+      "2": 3,
+      "3": 3,
+      "4": 1,
+      "5": 4,
+      "6": 3,
+      "7": 4,
+      "8": 2,
+      "9": 1
+    },
+    "timestamp": "2026-09-08T10:59:52.194Z",
+    "calculated_metrics": {
+      "interfaceA": {
+        "avgTime": 29.542999999999996,
+        "totalErrors": 3,
+        "successRate": 100
+      },
+      "interfaceB": {
+        "avgTime": 28.522666666666666,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "susScore": 32.5
+    },
+    "savedAt": "2026-09-08T10:59:52.205Z"
+  },
+  {
+    "participantId": "P004",
+    "demographics": {
+      "age": 50,
+      "gender": "female",
+      "education": "masters",
+      "techExperience": 7,
+      "deviceType": "tablet"
+    },
+    "interfaceA": {
+      "tasks": [
+        {
+          "completionTime": 2.521,
+          "errors": 0,
+          "reactionTimes": [],
+          "success": true,
+          "selectedOption": "Settings",
+          "taskId": "A1",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:00:33.661Z"
+        },
+        {
+          "completionTime": 6.42,
+          "errors": 0,
+          "reactionTimes": [
+            2517
+          ],
+          "success": true,
+          "selectedOption": "Profile",
+          "taskId": "A2",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:00:37.564Z"
+        },
+        {
+          "completionTime": 11.002,
+          "errors": 0,
+          "reactionTimes": [
+            2517,
+            2389
+          ],
+          "success": true,
+          "selectedOption": "Help",
+          "taskId": "A3",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:00:42.145Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 0,
+        "physicalDemand": 1,
+        "temporalDemand": 0,
+        "performance": 10,
+        "effort": 0,
+        "frustration": 0
+      }
+    },
+    "interfaceB": {
+      "tasks": [
+        {
+          "completionTime": 9.553,
+          "errors": 0,
+          "reactionTimes": [
+            6726
+          ],
+          "success": true,
+          "selectedOption": "System Settings",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B1",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:01:21.406Z"
+        },
+        {
+          "completionTime": 14.517,
+          "errors": 0,
+          "reactionTimes": [
+            6726,
+            2812,
+            2155
+          ],
+          "success": true,
+          "selectedOption": "User Management",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B2",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:01:26.371Z"
+        },
+        {
+          "completionTime": 21.915,
+          "errors": 0,
+          "reactionTimes": [
+            6726,
+            2812,
+            2155,
+            1284,
+            4125
+          ],
+          "success": true,
+          "selectedOption": "Technical Support",
+          "path": [
+            "Main",
+            "Help Center"
+          ],
+          "taskId": "B3",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:01:33.757Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 2,
+        "physicalDemand": 1,
+        "temporalDemand": 1,
+        "performance": 10,
+        "effort": 1,
+        "frustration": 0
+      }
+    },
+    "sus": {
+      "0": 4,
+      "1": 1,
+      "2": 3,
+      "3": 1,
+      "4": 5,
+      "5": 1,
+      "6": 5,
+      "7": 2,
+      "8": 4,
+      "9": 1
+    },
+    "timestamp": "2026-09-08T11:03:19.191Z",
+    "calculated_metrics": {
+      "interfaceA": {
+        "avgTime": 6.647666666666666,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "interfaceB": {
+        "avgTime": 15.328333333333333,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "susScore": 87.5
+    },
+    "savedAt": "2026-09-08T11:03:19.199Z"
+  },
+  {
+    "participantId": "P005",
+    "demographics": {
+      "age": 18,
+      "gender": "male",
+      "education": "high-school",
+      "techExperience": 10,
+      "deviceType": "smartphone"
+    },
+    "interfaceA": {
+      "tasks": [
+        {
+          "completionTime": 9.026,
+          "errors": 0,
+          "reactionTimes": [],
+          "success": true,
+          "selectedOption": "Settings",
+          "taskId": "A1",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:04:44.731Z"
+        },
+        {
+          "completionTime": 12.391,
+          "errors": 0,
+          "reactionTimes": [
+            9019
+          ],
+          "success": true,
+          "selectedOption": "Profile",
+          "taskId": "A2",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:04:48.104Z"
+        },
+        {
+          "completionTime": 16.814,
+          "errors": 0,
+          "reactionTimes": [
+            9019,
+            1851
+          ],
+          "success": true,
+          "selectedOption": "Help",
+          "taskId": "A3",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:04:52.511Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 0,
+        "physicalDemand": 0,
+        "temporalDemand": 0,
+        "performance": 10,
+        "effort": 0,
+        "frustration": 0
+      }
+    },
+    "interfaceB": {
+      "tasks": [
+        {
+          "completionTime": 10.1,
+          "errors": 0,
+          "reactionTimes": [
+            5545,
+            2316
+          ],
+          "success": true,
+          "selectedOption": "System Settings",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B1",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:05:27.682Z"
+        },
+        {
+          "completionTime": 14.834,
+          "errors": 0,
+          "reactionTimes": [
+            5545,
+            2316,
+            2233,
+            1871
+          ],
+          "success": true,
+          "selectedOption": "User Management",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B2",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:05:32.410Z"
+        },
+        {
+          "completionTime": 28.443,
+          "errors": 0,
+          "reactionTimes": [
+            5545,
+            2316,
+            2233,
+            1871,
+            1340,
+            2612,
+            1817,
+            1833,
+            1957,
+            2089
+          ],
+          "success": true,
+          "selectedOption": "Technical Support",
+          "path": [
+            "Main",
+            "Help Center"
+          ],
+          "taskId": "B3",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:05:46.034Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 1,
+        "physicalDemand": 0,
+        "temporalDemand": 2,
+        "performance": 9,
+        "effort": 1,
+        "frustration": 1
+      }
+    },
+    "sus": {
+      "0": 3,
+      "1": 1,
+      "2": 3,
+      "3": 1,
+      "4": 4,
+      "5": 1,
+      "6": 5,
+      "7": 2,
+      "8": 4,
+      "9": 1
+    },
+    "timestamp": "2026-09-08T11:07:16.840Z",
+    "calculated_metrics": {
+      "interfaceA": {
+        "avgTime": 12.743666666666668,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "interfaceB": {
+        "avgTime": 17.792333333333332,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "susScore": 82.5
+    },
+    "savedAt": "2026-09-08T11:07:16.851Z"
+  },
+  {
+    "participantId": "P006",
+    "demographics": {
+      "age": 20,
+      "gender": "male",
+      "education": "bachelors",
+      "techExperience": 10,
+      "deviceType": "smartphone"
+    },
+    "interfaceA": {
+      "tasks": [
+        {
+          "completionTime": 5.103,
+          "errors": 0,
+          "reactionTimes": [],
+          "success": true,
+          "selectedOption": "Settings",
+          "taskId": "A1",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:08:15.352Z"
+        },
+        {
+          "completionTime": 8.772,
+          "errors": 0,
+          "reactionTimes": [
+            5095
+          ],
+          "success": true,
+          "selectedOption": "Profile",
+          "taskId": "A2",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:08:19.016Z"
+        },
+        {
+          "completionTime": 12.658,
+          "errors": 0,
+          "reactionTimes": [
+            5095,
+            2152
+          ],
+          "success": true,
+          "selectedOption": "Help",
+          "taskId": "A3",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:08:22.901Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 0,
+        "physicalDemand": 0,
+        "temporalDemand": 0,
+        "performance": 10,
+        "effort": 0,
+        "frustration": 0
+      }
+    },
+    "interfaceB": {
+      "tasks": [
+        {
+          "completionTime": 65.708,
+          "errors": 0,
+          "reactionTimes": [
+            64298
+          ],
+          "success": true,
+          "selectedOption": "System Settings",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B1",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:09:51.162Z"
+        },
+        {
+          "completionTime": 70.828,
+          "errors": 0,
+          "reactionTimes": [
+            64298,
+            1405,
+            2612
+          ],
+          "success": true,
+          "selectedOption": "User Management",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B2",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:09:56.280Z"
+        },
+        {
+          "completionTime": 75.153,
+          "errors": 0,
+          "reactionTimes": [
+            64298,
+            1405,
+            2612,
+            986,
+            1510
+          ],
+          "success": true,
+          "selectedOption": "Technical Support",
+          "path": [
+            "Main",
+            "Help Center"
+          ],
+          "taskId": "B3",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:10:00.617Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 1,
+        "physicalDemand": 0,
+        "temporalDemand": 1,
+        "performance": 9,
+        "effort": 0,
+        "frustration": 1
+      }
+    },
+    "sus": {
+      "0": 3,
+      "1": 1,
+      "2": 4,
+      "3": 1,
+      "4": 5,
+      "5": 1,
+      "6": 5,
+      "7": 1,
+      "8": 5,
+      "9": 1
+    },
+    "timestamp": "2026-09-08T11:11:16.487Z",
+    "calculated_metrics": {
+      "interfaceA": {
+        "avgTime": 8.844333333333333,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "interfaceB": {
+        "avgTime": 70.563,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "susScore": 92.5
+    },
+    "savedAt": "2026-09-08T11:11:16.495Z"
+  },
+  {
+    "participantId": "P007",
+    "demographics": {
+      "age": 35,
+      "gender": "male",
+      "education": "phd",
+      "techExperience": 10,
+      "deviceType": "laptop"
+    },
+    "interfaceA": {
+      "tasks": [
+        {
+          "completionTime": 2.745,
+          "errors": 0,
+          "reactionTimes": [],
+          "success": true,
+          "selectedOption": "Settings",
+          "taskId": "A1",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:12:00.137Z"
+        },
+        {
+          "completionTime": 9,
+          "errors": 0,
+          "reactionTimes": [
+            2738
+          ],
+          "success": true,
+          "selectedOption": "Profile",
+          "taskId": "A2",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:12:06.392Z"
+        },
+        {
+          "completionTime": 13.171,
+          "errors": 0,
+          "reactionTimes": [
+            2738,
+            4743
+          ],
+          "success": true,
+          "selectedOption": "Help",
+          "taskId": "A3",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:12:10.576Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 0,
+        "physicalDemand": 0,
+        "temporalDemand": 0,
+        "performance": 10,
+        "effort": 0,
+        "frustration": 0
+      }
+    },
+    "interfaceB": {
+      "tasks": [
+        {
+          "completionTime": 6.144,
+          "errors": 0,
+          "reactionTimes": [
+            4489
+          ],
+          "success": true,
+          "selectedOption": "System Settings",
+          "path": [
+            "Main",
+            "System"
+          ],
+          "taskId": "B1",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:12:44.474Z"
+        },
+        {
+          "completionTime": 13.099,
+          "errors": 0,
+          "reactionTimes": [
+            4489,
+            1643,
+            3968
+          ],
+          "success": true,
+          "selectedOption": "User Management",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B2",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:12:51.443Z"
+        },
+        {
+          "completionTime": 20.18,
+          "errors": 0,
+          "reactionTimes": [
+            4489,
+            1643,
+            3968,
+            1467,
+            3173
+          ],
+          "success": true,
+          "selectedOption": "Technical Support",
+          "path": [
+            "Main",
+            "Help Center"
+          ],
+          "taskId": "B3",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:12:58.509Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 1,
+        "physicalDemand": 0,
+        "temporalDemand": 1,
+        "performance": 10,
+        "effort": 0,
+        "frustration": 0
+      }
+    },
+    "sus": {
+      "0": 5,
+      "1": 1,
+      "2": 5,
+      "3": 1,
+      "4": 5,
+      "5": 1,
+      "6": 5,
+      "7": 1,
+      "8": 5,
+      "9": 1
+    },
+    "timestamp": "2026-09-08T11:14:15.235Z",
+    "calculated_metrics": {
+      "interfaceA": {
+        "avgTime": 8.305333333333333,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "interfaceB": {
+        "avgTime": 13.141,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "susScore": 100
+    },
+    "savedAt": "2026-09-08T11:14:15.248Z"
+  },
+  {
+    "participantId": "P008",
+    "demographics": {
+      "age": 23,
+      "gender": "female",
+      "education": "masters",
+      "techExperience": 7,
+      "deviceType": "smartphone"
+    },
+    "interfaceA": {
+      "tasks": [
+        {
+          "completionTime": 6.46,
+          "errors": 0,
+          "reactionTimes": [],
+          "success": true,
+          "selectedOption": "Settings",
+          "taskId": "A1",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:15:09.785Z"
+        },
+        {
+          "completionTime": 11.241,
+          "errors": 0,
+          "reactionTimes": [
+            6451
+          ],
+          "success": true,
+          "selectedOption": "Profile",
+          "taskId": "A2",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:15:14.576Z"
+        },
+        {
+          "completionTime": 17.923,
+          "errors": 0,
+          "reactionTimes": [
+            6451,
+            3267
+          ],
+          "success": true,
+          "selectedOption": "Help",
+          "taskId": "A3",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:15:21.255Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 1,
+        "physicalDemand": 0,
+        "temporalDemand": 0,
+        "performance": 10,
+        "effort": 0,
+        "frustration": 0
+      }
+    },
+    "interfaceB": {
+      "tasks": [
+        {
+          "completionTime": 9.426,
+          "errors": 0,
+          "reactionTimes": [
+            5085
+          ],
+          "success": true,
+          "selectedOption": "System Settings",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B1",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:15:57.992Z"
+        },
+        {
+          "completionTime": 16.777,
+          "errors": 0,
+          "reactionTimes": [
+            5085,
+            4332,
+            4089
+          ],
+          "success": true,
+          "selectedOption": "User Management",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B2",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:16:05.344Z"
+        },
+        {
+          "completionTime": 34.451,
+          "errors": 0,
+          "reactionTimes": [
+            5085,
+            4332,
+            4089,
+            1735,
+            2352,
+            1570,
+            1290,
+            3610,
+            1426,
+            2692,
+            1381
+          ],
+          "success": true,
+          "selectedOption": "Technical Support",
+          "path": [
+            "Main",
+            "Help Center"
+          ],
+          "taskId": "B3",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:16:23.018Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 5,
+        "physicalDemand": 0,
+        "temporalDemand": 3,
+        "performance": 7,
+        "effort": 1,
+        "frustration": 3
+      }
+    },
+    "sus": {
+      "0": 3,
+      "1": 3,
+      "2": 3,
+      "3": 2,
+      "4": 3,
+      "5": 2,
+      "6": 3,
+      "7": 4,
+      "8": 2,
+      "9": 1
+    },
+    "timestamp": "2026-09-08T11:18:19.215Z",
+    "calculated_metrics": {
+      "interfaceA": {
+        "avgTime": 11.874666666666664,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "interfaceB": {
+        "avgTime": 20.218,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "susScore": 55
+    },
+    "savedAt": "2026-09-08T11:18:19.230Z"
+  },
+  {
+    "participantId": "P009",
+    "demographics": {
+      "age": 27,
+      "gender": "female",
+      "education": "high-school",
+      "techExperience": 5,
+      "deviceType": "smartphone"
+    },
+    "interfaceA": {
+      "tasks": [
+        {
+          "completionTime": 7.848,
+          "errors": 1,
+          "reactionTimes": [
+            5704
+          ],
+          "success": true,
+          "selectedOption": "Settings",
+          "taskId": "A1",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:19:17.930Z"
+        },
+        {
+          "completionTime": 12.559,
+          "errors": 1,
+          "reactionTimes": [
+            5704,
+            2138
+          ],
+          "success": true,
+          "selectedOption": "Profile",
+          "taskId": "A2",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:19:22.645Z"
+        },
+        {
+          "completionTime": 19.54,
+          "errors": 1,
+          "reactionTimes": [
+            5704,
+            2138,
+            3190
+          ],
+          "success": true,
+          "selectedOption": "Help",
+          "taskId": "A3",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:19:29.619Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 1,
+        "physicalDemand": 0,
+        "temporalDemand": 1,
+        "performance": 8,
+        "effort": 0,
+        "frustration": 1
+      }
+    },
+    "interfaceB": {
+      "tasks": [
+        {
+          "completionTime": 9.941,
+          "errors": 1,
+          "reactionTimes": [
+            2566,
+            1767,
+            4197
+          ],
+          "success": true,
+          "selectedOption": "System Settings",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B1",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:20:04.891Z"
+        },
+        {
+          "completionTime": 16.657,
+          "errors": 0,
+          "reactionTimes": [
+            2566,
+            1767,
+            4197,
+            1399,
+            2553
+          ],
+          "success": true,
+          "selectedOption": "User Management",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B2",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:20:11.602Z"
+        },
+        {
+          "completionTime": 34.951,
+          "errors": 0,
+          "reactionTimes": [
+            2566,
+            1767,
+            4197,
+            1399,
+            2553,
+            2637,
+            1682,
+            2742,
+            1440,
+            2440,
+            1639,
+            2398,
+            1304
+          ],
+          "success": true,
+          "selectedOption": "Technical Support",
+          "path": [
+            "Main",
+            "Help Center"
+          ],
+          "taskId": "B3",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:20:29.890Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 8,
+        "physicalDemand": 0,
+        "temporalDemand": 5,
+        "performance": 7,
+        "effort": 0,
+        "frustration": 5
+      }
+    },
+    "sus": {
+      "0": 1,
+      "1": 5,
+      "2": 1,
+      "3": 3,
+      "4": 2,
+      "5": 3,
+      "6": 2,
+      "7": 4,
+      "8": 1,
+      "9": 2
+    },
+    "timestamp": "2026-09-08T11:22:09.418Z",
+    "calculated_metrics": {
+      "interfaceA": {
+        "avgTime": 13.315666666666667,
+        "totalErrors": 3,
+        "successRate": 100
+      },
+      "interfaceB": {
+        "avgTime": 20.516333333333332,
+        "totalErrors": 1,
+        "successRate": 100
+      },
+      "susScore": 25
+    },
+    "savedAt": "2026-09-08T11:22:09.433Z"
+  },
+  {
+    "participantId": "P010",
+    "demographics": {
+      "age": 25,
+      "gender": "male",
+      "education": "high-school",
+      "techExperience": 5,
+      "deviceType": "smartphone"
+    },
+    "interfaceA": {
+      "tasks": [
+        {
+          "completionTime": 5.168,
+          "errors": 0,
+          "reactionTimes": [],
+          "success": true,
+          "selectedOption": "Settings",
+          "taskId": "A1",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:23:17.296Z"
+        },
+        {
+          "completionTime": 10.691,
+          "errors": 0,
+          "reactionTimes": [
+            5161
+          ],
+          "success": true,
+          "selectedOption": "Profile",
+          "taskId": "A2",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:23:22.819Z"
+        },
+        {
+          "completionTime": 17.141,
+          "errors": 0,
+          "reactionTimes": [
+            5161,
+            4006
+          ],
+          "success": true,
+          "selectedOption": "Help",
+          "taskId": "A3",
+          "interfaceId": "A",
+          "timestamp": "2026-09-08T11:23:29.269Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 1,
+        "physicalDemand": 0,
+        "temporalDemand": 0,
+        "performance": 10,
+        "effort": 0,
+        "frustration": 0
+      }
+    },
+    "interfaceB": {
+      "tasks": [
+        {
+          "completionTime": 14.972,
+          "errors": 0,
+          "reactionTimes": [
+            5221,
+            6511,
+            1327
+          ],
+          "success": true,
+          "selectedOption": "System Settings",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B1",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:24:12.512Z"
+        },
+        {
+          "completionTime": 25.952,
+          "errors": 0,
+          "reactionTimes": [
+            5221,
+            6511,
+            1327,
+            1906,
+            3140,
+            3315,
+            1800
+          ],
+          "success": true,
+          "selectedOption": "User Management",
+          "path": [
+            "Main",
+            "Administration"
+          ],
+          "taskId": "B2",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:24:23.492Z"
+        },
+        {
+          "completionTime": 39.053,
+          "errors": 0,
+          "reactionTimes": [
+            5221,
+            6511,
+            1327,
+            1906,
+            3140,
+            3315,
+            1800,
+            1217,
+            5153,
+            2812,
+            1449
+          ],
+          "success": true,
+          "selectedOption": "Technical Support",
+          "path": [
+            "Main",
+            "Help Center"
+          ],
+          "taskId": "B3",
+          "interfaceId": "B",
+          "timestamp": "2026-09-08T11:24:36.607Z"
+        }
+      ],
+      "nasa_tlx": {
+        "mentalDemand": 3,
+        "physicalDemand": 0,
+        "temporalDemand": 1,
+        "performance": 9,
+        "effort": 0,
+        "frustration": 2
+      }
+    },
+    "sus": {
+      "0": 3,
+      "1": 2,
+      "2": 3,
+      "3": 2,
+      "4": 4,
+      "5": 1,
+      "6": 4,
+      "7": 2,
+      "8": 3,
+      "9": 1
+    },
+    "timestamp": "2026-09-08T11:26:19.910Z",
+    "calculated_metrics": {
+      "interfaceA": {
+        "avgTime": 11,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "interfaceB": {
+        "avgTime": 26.659000000000002,
+        "totalErrors": 0,
+        "successRate": 100
+      },
+      "susScore": 72.5
+    },
+    "savedAt": "2026-09-08T11:26:19.925Z"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "total_participants": 10,
+  "summary_stats": {
+    "age_mean": 31.1,
+    "tech_experience_mean": 6.8,
+    "sus_mean": 66.75,
+    "interface_a_time_mean": 12.934999999999999,
+    "interface_b_time_mean": 27.175,
+    "interface_a_errors_mean": 0.6,
+    "interface_b_errors_mean": 0.1
+  }
+}
