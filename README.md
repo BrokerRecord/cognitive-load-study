@@ -425,6 +425,18 @@ python analyze_all_data.py
 
 ---
 
+## ⚠️ Limitations
+
+This study provides exploratory evidence on the relationship between interface complexity, cognitive workload, usability, and task performance. The results should be interpreted in light of the following limitations:
+
+- **Small sample size:** The study involved 10 participants, which limits statistical power and the generalizability of the findings.
+- **Participant variability:** Differences in participants' prior technological experience may have influenced task performance and perceived cognitive workload.
+- **Learning and order effects:** Participants interacted with both interface conditions, so familiarity with the task may have influenced performance in the second condition.
+- **Limited task scope:** The experiment focused on a specific task and interface scenario; results may differ for other tasks, applications, or user populations.
+- **Self-reported measures:** NASA-TLX and SUS include subjective assessments that may be affected by individual perception and response bias.
+- **Controlled environment:** The study was conducted under controlled conditions that may not fully reflect real-world usage, including distractions, interruptions, and contextual factors.
+- **Exploratory analysis:** Given the sample size, statistical significance and effect sizes should be interpreted cautiously and should not be considered definitive evidence of generalizable effects.
+
 ## 🔮 Future Improvements
 
 ### Short-term
