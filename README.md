@@ -102,12 +102,6 @@ This study investigates how **interface complexity affects cognitive load** and 
 
 ---
 
-## 📊 Results Dashboard
-
-![Results Dashboard](results/study_results.png)
-
----
-
 ## 📤 Data Export Options
 
 ![Data Export](results/data_export.PNG)
@@ -342,18 +336,18 @@ python analyze_all_data.py
 
 ```
 ┌─────────────────────────────────────────────┐
-│           STUDY RESULTS DASHBOARD            │
+│           STUDY RESULTS DASHBOARD           │
 ├─────────────────────────────────────────────┤
-│ Total Participants: 10                       │
-│ Average Age: 31.1 years                      │
-│ Tech Experience: 6.8/10                      │
+│ Total Participants: 10                      │
+│ Average Age: 31.1 years                     │
+│ Tech Experience: 6.8/10                     │
 ├─────────────────────────────────────────────┤
-│ INTERFACE A                    INTERFACE B   │
+│ INTERFACE A                    INTERFACE B  │
 │ Completion: 12.9s              27.2s        │
-│ Errors: 0.1                  0.6           │
-│ Success: 100%                  100%           │
+│ Errors: 0.1                  0.6            │
+│ Success: 100%                  100%         │
 ├─────────────────────────────────────────────┤
-│ Overall SUS: 66.75 (Grade A - Excellent)     │
+│ Overall SUS: 66.75 (Grade A - Excellent)    │
 └─────────────────────────────────────────────┘
 ```
 
