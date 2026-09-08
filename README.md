@@ -71,6 +71,8 @@ This study investigates how **interface complexity affects cognitive load** and 
 - 😤 Frustration was **84% lower** with Interface A (0.40 vs 2.50)
 - ⭐ System Usability Score (SUS): **66.8** (Grade C - Okay)
 
+Interface B increased cognitive workload and completion time but resulted in fewer errors, suggesting a potential speed–accuracy trade-off.
+
 ### 📈 Statistical Summary
 
 | Measure                           | Result                                        |
@@ -96,9 +98,15 @@ This study investigates how **interface complexity affects cognitive load** and 
 
 ---
 
-## 📝 Task Example
+## 🖥️ Interface Comparison
 
-![Task Example](results/Interface_A_task.PNG)
+### Interface A — Low Complexity
+
+## ![Study Interface](results/Interface_A_task.PNG)
+
+### Interface B — High Complexity
+
+![Study Interface](results/Interface_B_task.PNG)
 
 ---
 
@@ -107,6 +115,38 @@ This study investigates how **interface complexity affects cognitive load** and 
 ![Data Export](results/data_export.PNG)
 
 ---
+
+## 🧪 Study Flow
+
+```mermaid
+flowchart TD
+    A[Participant Consent] --> B[Participant ID]
+    B --> C[Study Instructions]
+
+    C --> D[Baseline / Demographic Questions]
+    D --> E[Interface A<br/>Low Complexity]
+    E --> F[Task Performance<br/>Completion Time + Errors]
+    F --> G[NASA-TLX<br/>Cognitive Workload]
+    G --> H[SUS<br/>Usability Evaluation]
+
+    H --> I[Interface B<br/>High Complexity]
+    I --> J[Task Performance<br/>Completion Time + Errors]
+    J --> K[NASA-TLX<br/>Cognitive Workload]
+    K --> L[SUS<br/>Usability Evaluation]
+
+    L --> M[Post-Study Questions]
+    M --> N[Data Storage]
+    N --> O[Statistical Analysis]
+
+    O --> P[Descriptive Statistics]
+    O --> Q[Hypothesis Testing]
+    O --> R[Cohen's d<br/>Effect Size]
+
+    P --> S[UX & Human Factors<br/>Interpretation]
+    Q --> S
+    R --> S
+
+```
 
 ## 📁 Project Structure
 
@@ -347,7 +387,7 @@ python analyze_all_data.py
 │ Errors: 0.1                  0.6            │
 │ Success: 100%                  100%         │
 ├─────────────────────────────────────────────┤
-│ Overall SUS: 66.75 (Grade A - Excellent)    │
+│ Overall SUS: 66.75     (Grade C - Okay)     │
 └─────────────────────────────────────────────┘
 ```
 
