@@ -86,35 +86,6 @@ Interface B increased cognitive workload and completion time but resulted in few
 
 ## 🖥️ Live Demo
 
-### Study Flow
-
-1. **Consent Form** → 2. **Demographics** → 3. **Interface A** (with TLX) →
-2. **Interface B** (with TLX) → 5. **SUS Questionnaire** → 6. **Completion & Data Export**
-
-### 🖥️ Study Interface
-
-![Study Interface](results/study_interface.PNG)
-
----
-
-## 🖥️ Interface Comparison
-
-### Interface A — Low Complexity
-
-## ![Study Interface](results/Interface_A_task.PNG)
-
-### Interface B — High Complexity
-
-![Study Interface](results/Interface_B_task.PNG)
-
----
-
-## 📤 Data Export Options
-
-![Data Export](results/data_export.PNG)
-
----
-
 ## 🧪 Study Flow
 
 ```mermaid
@@ -146,6 +117,30 @@ flowchart TD
     R --> S
 
 ```
+
+### 🖥️ Study Interface
+
+![Study Interface](results/study_interface.PNG)
+
+---
+
+## 🖥️ Interface Comparison
+
+### Interface A — Low Complexity
+
+## ![Study Interface](results/Interface_A_task.PNG)
+
+### Interface B — High Complexity
+
+![Study Interface](results/Interface_B_task.PNG)
+
+---
+
+## 📤 Data Export Options
+
+![Data Export](results/data_export.PNG)
+
+---
 
 ## 📁 Project Structure
 
